@@ -1,6 +1,6 @@
 {
   "name": "cg-zhou/bezier-easing",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "description": "MoonBit port of bezier-easing",
   "deps": {},
   "source": "src",
