@@ -20,6 +20,18 @@ It projects an input $x \in [0,1]$ onto a cubic bezier curve to obtain the corre
 moon add cg-zhou/bezier-easing
 ```
 
+## Configuration
+
+Add package alias to your `moon.pkg.json`:
+
+```json
+{
+  "import": {
+    "cg-zhou/bezier-easing": "bezier"
+  }
+}
+```
+
 ## Quick Example
 
 ```moonbit
