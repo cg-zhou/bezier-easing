@@ -4,8 +4,6 @@ package "cg-zhou/bezier-easing"
 // Values
 pub fn bezier(Double, Double, Double, Double) -> (Double) -> Double
 
-pub fn create_bezier(Double, Double, Double, Double) -> (Double) -> Double
-
 // Errors
 
 // Types and methods
