@@ -1,6 +1,9 @@
-# bezier-easing
+# bezier_easing
 
 A MoonBit implementation of **Cubic Bezier easing**, aligned with the core algorithms and behavior of JavaScript's bezier-easing.
+
+> [!IMPORTANT]
+> This package has been renamed from `bezier-easing` to `bezier_easing`. The old package is now deprecated.
 
 **Repository:** [https://github.com/cg-zhou/bezier-easing](https://github.com/cg-zhou/bezier-easing)
 
@@ -16,25 +19,13 @@ This library projects an input $x \in [0,1]$ onto a cubic bezier curve to obtain
 ## Install
 
 ```sh
-moon add cg-zhou/bezier-easing
-```
-
-## Configuration
-
-Add package alias to your `moon.pkg.json`:
-
-```json
-{
-  "import": {
-    "cg-zhou/bezier-easing": "bezier"
-  }
-}
+moon add cg-zhou/bezier_easing
 ```
 
 ## Quick Start
 
 ```moonbit
-let easing = @bezier.bezier(0.25, 0.1, 0.25, 1.0)
+let easing = @bezier_easing.bezier(0.25, 0.1, 0.25, 1.0)
 let y0 = easing(0.0) // 0.0
 let y1 = easing(0.5)
 let y2 = easing(1.0) // 1.0
