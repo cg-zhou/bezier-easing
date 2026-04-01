@@ -1,5 +1,5 @@
 import {
-  "cg-zhou/bezier-easing" @bezier,
+  "cg-zhou/bezier_easing",
 }
 
 options(

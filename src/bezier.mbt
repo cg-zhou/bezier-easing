@@ -96,7 +96,7 @@ fn get_t_for_x(x : Double, x1 : Double, x2 : Double, sample_values : Array[Doubl
 }
 
 pub fn bezier(m_x1 : Double, m_y1 : Double, m_x2 : Double, m_y2 : Double) -> (Double) -> Double {
-  if not(0.0 <= m_x1 && m_x1 <= 1.0 && 0.0 <= m_x2 && m_x2 <= 1.0) {
+  if !(0.0 <= m_x1 && m_x1 <= 1.0 && 0.0 <= m_x2 && m_x2 <= 1.0) {
     panic()
   }
 

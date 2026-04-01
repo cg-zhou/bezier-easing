@@ -8,7 +8,7 @@ fn main {
 
   for item in cases {
     let (x1, y1, x2, y2) = item
-    let easing = @bezier.bezier(x1, y1, x2, y2)
+    let easing = @bezier_easing.bezier(x1, y1, x2, y2)
     for i in 0..=20 {
       let x = i.to_double() / 20.0
       let y = easing(x)
